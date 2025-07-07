@@ -16,3 +16,10 @@ It includes:
 - Created a production-grade test file covering success, failure, and context scenarios.
 - Folder: `v2_refactored/api/user_service.go`
 - Tests: `v2_refactored/tests/user_service_test.go`
+
+### ✅ Step 2 – Clean UserHandler with Observability
+
+- Replaced tightly coupled handler with a modular HTTP handler using dependency injection.
+- Introduced structured logging using slog for visibility and traceability.
+- Added input validation and standardized JSON responses.
+- Folder: `v2_refactored/api/user_handler.go`
